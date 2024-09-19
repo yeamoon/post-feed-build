@@ -1,0 +1,61 @@
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #d0d5d8; /* Light grey background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 20px;
+  }
+  
+  .controls label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333; /* Dark color for labels */
+    margin-bottom: 10px;
+  }
+  
+  .controls select {
+    padding: 10px 15px;
+    border: 1px solid #ced4da; /* Light border color */
+    border-radius: 5px;
+    font-size: 16px;
+    color: #495057; /* Dark text color */
+    background-color: #ffffff; /* White background for dropdown */
+    transition: border-color 0.3s ease;
+    margin-bottom: 20px; /* Space between dropdowns */
+    width: 100%; /* Full width */
+    max-width: 300px; /* Maximum width for dropdowns */
+  }
+  
+  .controls select:focus {
+    border-color: #007bff; /* Highlight border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .controls button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Blue background color */
+    color: #ffffff; /* White text color */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .controls button:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+  }
+  
+  .controls button:active {
+    background-color: #004494; /* Even darker blue on active */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow on active */
+  }
+  
+  .controls button:disabled {
+    background-color: #cccccc; /* Grey background for disabled state */
+    cursor: not-allowed; /* Not-allowed cursor for disabled state */
+  }
+  
